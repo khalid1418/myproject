@@ -1,5 +1,5 @@
 fun main() {
-    var x:String? = "null"
-    var title =x?:"new title"
-    println(title)
+    val numLetters = "Mississippi".count({letter -> letter=='s' })
+    print(numLetters)
+
 }
